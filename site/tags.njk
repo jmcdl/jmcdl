@@ -16,7 +16,7 @@ permalink: /category/{{ category }}/
     <article id="container-centre" class="column centre flex-1">
 
         <header>
-            <h1 class="page-title text-purple-900 text-3xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl">Category — {{ category | capitalize }}</h1>
+            <h1 class="page-title text-blue-900 text-3xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl">Category — {{ category | capitalize }}</h1>
         </header>
 
         <div class="posts">
@@ -25,7 +25,7 @@ permalink: /category/{{ category }}/
 
                 <article class="text-gray-500 mb-8 pb-8 border-b border-gray-200">
 
-                    <h2 class="text-4xl mb-3"><a class="block text-pink-500 hover:text-purple-900" href="{{ post.url }}">{{ post.data.title }}</a></h2>
+                    <h2 class="text-4xl mb-3"><a class="block text-blue-400 hover:text-blue-900" href="{{ post.url }}">{{ post.data.title }}</a></h2>
 
                     <time datetime="{{ post.date }}">
                         {{ post.date | dateDisplay }}
