@@ -274,8 +274,8 @@ var $$ = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/james/projects/eleventy/skeleventy/resources/js/main.js */"./resources/js/main.js");
-module.exports = __webpack_require__(/*! /Users/james/projects/eleventy/skeleventy/resources/sass/main.scss */"./resources/sass/main.scss");
+__webpack_require__(/*! /Users/james/projects/eleventy/jmcdl/resources/js/main.js */"./resources/js/main.js");
+module.exports = __webpack_require__(/*! /Users/james/projects/eleventy/jmcdl/resources/sass/main.scss */"./resources/sass/main.scss");
 
 
 /***/ })
