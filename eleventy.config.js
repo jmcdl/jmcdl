@@ -1,6 +1,16 @@
-const htmlmin = require("html-minifier")
+const htmlmin = require("html-minifier");
+
 
 module.exports = eleventyConfig => {
+
+    // Add math
+    let markdownIt = require("markdown-it");
+    let options = {
+        html: false
+    };
+    const markdownItKatex = require("markdown-it-katex");
+    const markdownLib = markdownIt(options).use(markdownItKatex);
+    eleventyConfig.setLibrary("md", markdownLib)
 
     // Add a readable date formatter filter to Nunjucks
     eleventyConfig.addFilter("dateDisplay", require("./filters/dates.js"))

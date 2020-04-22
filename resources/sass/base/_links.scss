@@ -5,11 +5,10 @@ a {
     @apply text-blue-900 no-underline transition-all duration-300 ease-out;
 
     &:not([class]) {
-        border-bottom-width: 2px;
-        border-color: #ed8936;
+        @apply border-b-2 border-gray-300;
 
         &:hover {
-            @apply text-blue-400;
+            @apply border-blue-400;
         }
     }
 }

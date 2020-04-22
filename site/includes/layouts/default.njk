@@ -11,6 +11,9 @@
         <meta name="robots" content="index,follow" />
     {% endif %}
 
+    {# add stylesheet required by markdown-it-katex plugin #}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+
     {# if your site's entire CSS comes in under 14kb, you may want to inline in the head #}
     {# include main.css if in development mode #}
     {% if helpers.environment === "development" %}

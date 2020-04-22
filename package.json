@@ -17,10 +17,13 @@
     "html-minifier": "^4.0.0",
     "laravel-mix": "^5.0.1",
     "laravel-mix-purgecss": "^4.2.0",
+    "markdown-it": "^10.0.0",
+    "markdown-it-katex": "^2.0.3",
     "resolve-url-loader": "^3.1.0",
     "sass": "^1.22.12",
     "sass-loader": "^8.0.0",
     "tailwindcss": "^1.2.0",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "dependencies": {}
 }
