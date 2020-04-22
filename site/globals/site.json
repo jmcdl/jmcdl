@@ -1,10 +1,10 @@
 {
-    "name": "Skeleventy",
-    "url": "https://skeleventy.netlify.com",
+    "name": "jmcdl",
+    "url": "https://www.jmcdl.com",
     "author": {
-        "name": "Max Power",
-        "email": "hello@maxpower.com",
-        "handle": "@maxpower",
+        "name": "James McDonell",
+        "email": "jmcdl@protonmail.com",
+        "handle": "@jmcdl_",
         "avatar": "/images/blog/author.jpg"
     },
     "images": {
@@ -14,9 +14,7 @@
         "og": "/images/meta/og.jpg"
     },
     "social_links": {
-        "facebook": "https://www.facebook.com",
-        "twitter": "https://twitter.com/joe_dyer1",
-        "linkedin": "https://www.linkedin.com"
+        "twitter": "https://twitter.com/jmcdl_"
     },
     "address": {
         "street": "123 Fake Street",
