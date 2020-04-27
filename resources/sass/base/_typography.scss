@@ -21,15 +21,30 @@ h1, h2, h3 {
   //  first-child styles from being applied to p elements inside blockquotes
   > p {
     &:first-child {
-      @apply border-b-2 border-gray-200 text-xl pb-10 mb-10 font-light leading-snug text-gray-600;
-
-      @screen md {
-        @apply text-3xl;
-      }
+      @apply border-b-2 border-gray-200 text-2xl pb-6 mb-6 font-light leading-snug text-gray-600;
     }
   }
 }
 
 blockquote {
+  @apply px-6 text-gray-600 border-l-2 border-gray-200;
+}
 
+.footnotes-list {
+  list-style: decimal inside;
+  margin: 1rem;
+
+
+}
+
+.footnote-item {
+  > p {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+  }
+
+}
+
+.footnote-backref {
+  font-family: -apple-system;
 }
