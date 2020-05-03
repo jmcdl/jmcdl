@@ -58,8 +58,8 @@ products and commodities.
 local governments and individuals (with various forms of universal basic income).
 
 3. Once the acute phase of the shutdown is over, demand comes back quickly, especially for commodities like oil, 
-but with a lot of supply capacity removed during the crisis, supply won't be able to keep up and commodity prices will "rip higher".
-The price rises will cause measures of inflation to "skyrocket".
+but with a lot of supply capacity removed during the crisis, supply won't be able to keep up and commodity prices will 'rip higher'.
+The price rises will cause measures of inflation to 'skyrocket'.
 
 4. Interest rates are set relative to inflation and will therefore increase rapidly in response to inflation. Since interest rates 
 are an important component of the [Capital Asset Pricing Model](https://en.wikipedia.org/wiki/Capital_asset_pricing_model), which 
@@ -67,7 +67,7 @@ many stock market investors use to make investment decisions. The sudden rise in
 the stock market and a dramatic decrease in valuations.
 
 5. Bonds coupon rates (interest rates) are similarly defined relative to inflation, paying a premium above the prevailing
-rate of inflation. A rapid increase in bond rates will cause the value (price) of bonds issued earlier to be "wiped out" since no one wants 
+rate of inflation. A rapid increase in bond rates will cause the value (price) of bonds issued earlier to be 'wiped out' since no one wants 
 to buy a bond that pays a rate far below the rate of inflation.
 
 6. The preceding steps lead to an [inflationary depression](https://economics.stackexchange.com/questions/18690/inflationary-recession-vs-deflationary-recession), 
@@ -76,7 +76,7 @@ money we earn (meaning the amount of stuff we can actually buy) will be decreasi
 goods that retain their value, such as land and commodities, as quickly as possible. 
 
 ```javascript
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 };

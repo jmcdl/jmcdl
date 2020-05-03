@@ -1,17 +1,17 @@
 {
-  "name": "skeleventy",
-  "version": "2.0.0",
-  "description": "Skeleventy - A skeleton boilerplate built with Eleventy",
+  "name": "jmcdl.com",
+  "version": "1.0.0",
+  "description": "Personal website of James McDonell",
   "scripts": {
     "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve & webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js && npx @11ty/eleventy --config=eleventy.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/josephdyer/skeleventy.git"
+    "url": "https://github.com/jmcdl/jmcdl.git"
   },
-  "author": "Joseph Dyer",
-  "license": "MIT",
+  "author": "James McDonell",
+  "license": "CC-BY-ND-4.0",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
@@ -25,8 +25,7 @@
     "resolve-url-loader": "^3.1.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "tailwindcss": "^1.4.4",
-    "vue-template-compiler": "^2.6.11"
+    "tailwindcss": "^1.4.4"
   },
   "dependencies": {}
 }
