@@ -19,42 +19,42 @@ title: Articles
                 <article class="article-card mb-8 mx-4 flex-1 bg-white overflow-hidden rounded-lg shadow-lg">
 
                     {# featured post image & category #}
-                    {% if post.data.featured_image %}
+{#                    {% if post.data.featured_image %}#}
 
-                        <a class="featured-image-link block relative overflow-hidden" href="{{ post.url }}">
+{#                        <a class="featured-image-link block relative overflow-hidden" href="{{ post.url }}">#}
 
-                            {# category link #}
-                            <ul class="absolute bottom-0 left-0 flex p-8 z-10">
+{#                            #}{# category link #}
+{#                            <ul class="absolute bottom-0 left-0 flex p-8 z-10">#}
 
-                                {% for item in post.data.tags %}
+{#                                {% for item in post.data.tags %}#}
 
-                                    {%- if item != "blog" -%}
+{#                                    {%- if item != "blog" -%}#}
 
-                                        <li class="mr-2">
+{#                                        <li class="mr-2">#}
 
-                                            <span class="inline-block bg-blue-400 px-4 py-2 text-white text-xs font-bold rounded">{{ item | capitalize }}</span>
+{#                                            <span class="inline-block bg-blue-400 px-4 py-2 text-white text-xs font-bold rounded">{{ item | capitalize }}</span>#}
 
-                                        </li>
+{#                                        </li>#}
 
-                                    {%- endif -%}
+{#                                    {%- endif -%}#}
 
-                                {% endfor %}
+{#                                {% endfor %}#}
 
-                            </ul>
+{#                            </ul>#}
 
-                            <figure>
+{#                            <figure>#}
 
-                                {# the 'data-lazy' attribute will lazy load your images in #}
-                                {# the js uses the new Intersection Observer API, see ../modules/lazyload #}
-                                {# it's not fully supported in some browsers, so proceed with caution! #}
-                                {# the srcset attribute would be a nice addtion here as well...in a future update maybe :) #}
-                                <img data-lazy="{{ post.data.featured_image }}" class="block" alt="{{ post.data.image_caption }}">
+{#                                #}{# the 'data-lazy' attribute will lazy load your images in #}
+{#                                #}{# the js uses the new Intersection Observer API, see ../modules/lazyload #}
+{#                                #}{# it's not fully supported in some browsers, so proceed with caution! #}
+{#                                #}{# the srcset attribute would be a nice addtion here as well...in a future update maybe :) #}
+{#                                <img data-lazy="{{ post.data.featured_image }}" class="block" alt="{{ post.data.image_caption }}">#}
 
-                            </figure>
+{#                            </figure>#}
 
-                        </a>
+{#                        </a>#}
 
-                    {% endif %}
+{#                    {% endif %}#}
 
                     <div class="p-8">
 

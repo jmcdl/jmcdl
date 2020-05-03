@@ -15,10 +15,6 @@ layout: default
 
             <div class="text-sm md:text-base text-gray-600 flex justify-center">
 
-                <p class="author">By {{ site.author.name }}</p>
-
-                <p class="px-2">—</p>
-
                 <time datetime="{{ date }}">
                     {{ date | dateDisplay }}
                 </time>
@@ -36,7 +32,7 @@ layout: default
 
                             {%- if item != "blog" -%}
 
-                                <a href="/category/{{ item }}">{{ comma() }} {{ item | capitalize }}</a>
+                                <a class="hover:text-blue-400" href="/category/{{ item }}">{{ comma() }} {{ item | capitalize }}</a>
 
                             {%- endif -%}
 
@@ -68,6 +64,8 @@ layout: default
         </div>
 
         <div class="content post md:px-16">
+
+            <p>{{ excerpt | safe }}</p>
 
             {{ content | safe }}
 

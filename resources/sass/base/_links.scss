@@ -5,7 +5,7 @@ a {
     @apply text-blue-900 no-underline transition-all duration-300 ease-out;
 
     &:not([class]) {
-        @apply border-b-2 border-gray-300;
+        @apply border-b-2 border-blue-200;
 
         &:hover {
             @apply border-blue-400;
@@ -13,4 +13,13 @@ a {
     }
 }
 
+.footnote-ref {
+    > a {
+        @apply border-none;
+
+        &:hover {
+            @apply text-blue-400;
+        }
+    }
+}
 
