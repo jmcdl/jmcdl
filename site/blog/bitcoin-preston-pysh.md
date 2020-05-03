@@ -75,15 +75,9 @@ where nominal prices rise at the same time as the economy is contracting.[^1] Un
 money we earn (meaning the amount of stuff we can actually buy) will be decreasing, which encourages people to exchange their money for
 goods that retain their value, such as land and commodities, as quickly as possible. 
 
-```javascript
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(syntaxHighlight);
-};
-```
+## Discussion
 
-sdfsdf
-
+I don't know.
 
 [^1]: It's not clear to me, and Preston doesn't elaborate on, how exactly the inflationary depression follows. I'm familiar with 
 arguments that suggest a much more valuable USD is likely in the short to medium term, due to its role as the world's reserve 
