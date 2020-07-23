@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>James McDonell - CV</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+        .Navbar ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0
+        }
+
+        html {
+            font-size: 62.5%;
+            box-sizing: border-box
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit
+        }
+
+        body {
+            margin: 0;
+            background-color: #fff
+        }
+
+        img {
+            max-width: 100%;
+            height: auto
+        }
+
+        .u-cf:before,
+        .u-cf:after {
+            content: " ";
+            display: table
+        }
+
+        .u-cf:after {
+            clear: both
+        }
+
+        .u-hug {
+            margin-top: 0 !important
+        }
+
+        .u-pullRight {
+            float: right
+        }
+
+        .u-keyline {
+            position: relative
+        }
+
+        .u-keyline:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            border-top: 1px solid #ddd
+        }
+
+        .u-link-strong {
+            text-decoration: none;
+        }
+
+        .u-link {
+            text-decoration: none;
+            position: relative;
+            display: inline-block
+        }
+
+        .u-link:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            bottom: .2em;
+            width: 100%;
+            height: 2px;
+            background-color: #74E2FF
+        }
+
+        /*.u-link:visited:before {*/
+        /*    background-color: #ddd*/
+        /*}*/
+
+        .u-link:hover:before {
+            background-color: #fa8072
+        }
+
+        .u-shadow {
+            text-shadow: 4px 4px 0 #74E2FF;
+            transition: text-shadow .2s ease-in-out
+        }
+
+        a:hover .u-shadow {
+            text-shadow: -4px -4px 0 salmon
+        }
+
+        @media (max-width: 767px) {
+            .u-hidden\@sm-down {
+                display: none !important
+            }
+        }
+
+        @media (max-width: 543px) {
+            .u-hidden\@xs-down {
+                display: none !important
+            }
+        }
+
+        body {
+            color: #333;
+            font-size: 1.6rem;
+            font-family: Lato, Helvetica, Arial, sans-serif;
+            font-weight: normal;
+            line-height: 1.5;
+            letter-spacing: .008em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #111;
+            line-height: 1.2;
+            font-weight: 900
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        ul,
+        p {
+            margin-top: 1.6rem;
+            margin-bottom: 0
+        }
+
+        h3,
+        .h3 {
+            font-size: 2rem;
+            margin-top: 3.2rem
+        }
+
+        a {
+            color: #333
+        }
+
+        ul {
+            padding-left: 1.8rem
+        }
+
+        .Title {
+            font-size: 50px;
+            font-size: 8vw;
+            font-family: Lato, 'Open Sans', Helvetica, Arial;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-top: 0;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            display: inline-block
+        }
+
+        @media (max-width: 525px) {
+            .Title {
+                font-size: 42px
+            }
+        }
+
+        @media (min-width: 937.5px) {
+            .Title {
+                font-size: 75px
+            }
+        }
+
+        .Title-sub {
+            font-size: .34em;
+            letter-spacing: .16em;
+            font-weight: 400;
+            text-transform: none;
+            display: block;
+            margin-top: 1.2rem;
+            padding-top: 1.6rem;
+            border-top: .45em solid
+        }
+
+        .l-Wrapper {
+            width: 80%;
+            max-width: 90rem;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        @media (max-width: 767px) {
+            .l-Wrapper--reset\@sm-down {
+                width: 100%
+            }
+        }
+
+        .l-Header {
+            margin-top: 6.4rem;
+            margin-bottom: 3.2rem
+        }
+
+        .l-Header-col {
+            margin-top: 3.2rem;
+            margin-bottom: 3.2rem
+        }
+
+        @media (min-width: 544px) {
+            .l-Header {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end
+            }
+
+            .l-Header-col:last-child:not(:first-child) {
+                text-align: right
+            }
+        }
+
+        .l-Section {
+            margin-top: 6.4rem
+        }
+
+        .l-Section + .l-Section {
+            position: relative;
+            border-top: 1px solid #ddd
+        }
+
+        .l-Section + .l-Section:before {
+            content: "";
+            font-size: 50px;
+            font-size: 8vw;
+            position: absolute;
+            top: -.1rem;
+            border-top: .153em solid;
+            width: 4rem
+        }
+
+        @media (max-width: 525px) {
+            .l-Section + .l-Section:before {
+                font-size: 42px
+            }
+        }
+
+        @media (min-width: 937.5px) {
+            .l-Section + .l-Section:before {
+                font-size: 75px
+            }
+        }
+
+        .l-Section-title,
+        .l-Section-content {
+            margin-top: 3.2rem
+        }
+
+        .l-Section-content > :first-child,
+        .l-Section-content > :first-child > h3 {
+            margin-top: 0
+        }
+
+        .l-Section-content > p:first-child,
+        .l-Section-content > ul:first-child {
+            margin-top: .3rem
+        }
+
+        .l-Section-group {
+            display: inline
+        }
+
+        @media (min-width: 768px) {
+            .l-Section {
+                display: flex
+            }
+
+            .l-Section:before {
+                display: none
+            }
+
+            .l-Section-title {
+                flex: 0 0 24%
+            }
+        }
+
+        .l-Footer {
+            font-size: 1.4rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 12.8rem -.8rem 3.2rem;
+            padding-top: 3.2rem
+        }
+
+        .l-Footer a {
+            text-decoration: none;
+            display: inline-block
+        }
+
+        .l-Footer a:not(:last-child) {
+            /*margin-right: 1.6rem*/
+        }
+
+        .l-Footer a:hover {
+            color: #111
+        }
+
+        .l-Footer-col {
+            padding-left: .8rem;
+            padding-right: .8rem
+        }
+
+        .Navbar {
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            line-height: 4rem;
+            letter-spacing: .28rem;
+            text-transform: uppercase;
+            width: 100%;
+            background-color: #111
+        }
+
+        .Navbar a:not(.Navbar-toggle) {
+            color: inherit;
+            text-decoration: none
+        }
+
+        .Navbar li {
+            display: inline-block
+        }
+
+        .Navbar a {
+            display: block;
+            padding: 0 .8rem
+        }
+
+        a.Navbar-btn {
+            padding-left: 2rem;
+            padding-right: 2rem;
+            background: #74E2FF
+        }
+
+        a.Navbar-btn:hover {
+            background: #fa8072
+        }
+
+        @media (max-width: 767px) {
+            .Navbar {
+                text-align: right
+            }
+
+            .Navbar ul:not(:first-child) {
+                display: inline-block;
+                padding-right: 1.6rem !important
+            }
+        }
+
+        .Tag {
+            color: #111;
+            text-shadow: 1px 1px 0 rgba(255, 255, 255, .4);
+            font-weight: 700;
+            line-height: 1;
+            position: relative;
+            display: inline-block;
+            padding-left: .8rem;
+            padding-right: .8rem
+        }
+
+        .Tag:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1em;
+            bottom: 0;
+            margin: auto;
+            border-radius: .2rem;
+            background-color: #74E2FF;
+            transition: all .8s .4s ease-in-out
+        }
+
+        .Tag:hover:before {
+            transform: scale(1.05, 1.4);
+            background-color: #74E2FF;
+            transition-delay: 0s;
+            transition-duration: .2s
+        }
+
+        @media print {
+            html {
+                font-size: 50%
+            }
+
+            .l-Wrapper {
+                width: 100%;
+                max-width: none
+            }
+
+            .Navbar,
+            .u-hidden\@print {
+                display: none
+            }
+
+            .l-Header,
+            .l-Header-col {
+                margin-top: 0
+            }
+
+            .l-Footer,
+            .l-Section {
+                margin-top: 3.2rem
+            }
+
+            h3,
+            .h3,
+            .l-Section-title,
+            .l-Section-content {
+                margin-top: 1.8rem
+            }
+
+            .Title {
+                font-size: 4.5rem
+            }
+
+            .l-Header {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end
+            }
+
+            .l-Header-col:last-child:not(:first-child) {
+                text-align: right
+            }
+
+            .l-Section {
+                position: relative;
+                padding-top: 5px;
+                border-top: 1px solid #ddd
+            }
+
+            .l-Section:before {
+                display: none
+            }
+
+            .l-Section:after {
+                content: "";
+                position: absolute;
+                top: -1px;
+                left: 0;
+                border-top: 5px solid;
+                width: 4rem
+            }
+
+            .l-Section-group {
+                display: block;
+                page-break-inside: avoid
+            }
+
+            .Tag {
+                font-weight: 900;
+                display: inline;
+                padding-left: 0;
+                padding-right: 0
+            }
+
+            *,
+            *:before,
+            *:after,
+            p:first-letter,
+            div:first-letter,
+            blockquote:first-letter,
+            li:first-letter,
+            p:first-line,
+            div:first-line,
+            blockquote:first-line,
+            li:first-line {
+                background: transparent !important;
+                color: #000 !important;
+                box-shadow: none !important;
+                text-shadow: none !important
+            }
+
+            a,
+            a:visited {
+                text-decoration: underline
+            }
+
+            p,
+            h2,
+            h3,
+            li {
+                orphans: 3;
+                widows: 3
+            }
+
+            h2,
+            h3 {
+                page-break-after: avoid
+            }
+
+            .Contact:after {
+                content: "(206) 960-0961";
+                padding-left: 1.6rem
+            }
+        }
+
+        @page {
+            margin: 2.2cm 2.2cm 1.8cm
+        }
+
+        .title-link {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+<nav class="Navbar">
+    <div class="l-Wrapper l-Wrapper--reset@sm-down">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/james-mcdonell-7bab8049/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/jmcdl/" target="_blank">Github</a></li>
+        </ul>
+    </div>
+</nav>
+
+<article class="l-Wrapper">
+
+    <div class="l-Header">
+        <div class="l-Header-col">
+            <a href="http://www.jmcdl.com" target="_blank">
+                <h1 class="Title">
+          <span class="u-shadow">
+            James<br>
+            McDonell
+          </span>
+                    <span class="Title-sub">Full Stack Web Developer</span>
+                </h1>
+            </a>
+        </div>
+        <div class="l-Header-col Contact">
+            <div>Adelaide, SA</div>
+            <div><a class="u-link" href="http://www.jmcdl.com/" target="_blank">www.jmcdl.com</a></div>
+            <div><a class="u-link" href="mailto:james.mcdonell@outlook.com"
+                    target="_blank">james.mcdonell@outlook.com</a></div>
+        </div>
+    </div>
+
+    <section class="l-Section">
+        <h2 class="l-Section-title h3 u-hidden@sm-down">Profile</h2>
+        <div class="l-Section-content">
+            <p>I am a software developer with experience in front-end and back-end development for
+                ecommerce websites and applications. I see software development as a superpower because it
+                gives a person the ability to not only identify problems and opportunities, but to build the solutions.
+            </p>
+            <p>I take pride in my craft. I value doing things the right way from the start and believe that investing
+                the effort up front always pay off in the long run. Attention to detail and team work are my
+                priorities.</p>
+        </div>
+    </section>
+
+    <section class="l-Section">
+        <h2 class="l-Section-title h3">Skills</h2>
+        <div class="l-Section-content">
+            <ul>
+                <li>Writing performant <strong class="Tag">HTML</strong> and <strong class="Tag">CSS</strong> using best
+                    practice tools and methodologies (eg. <strong class="Tag"><a class="u-link-strong"
+                                                                                 href="http://getbem.com/introduction/"
+                                                                                 target="_blank">BEM</a></strong>,
+                    <strong class="Tag"><a
+                            class="u-link-strong" href="https://sass-lang.com/" target="_blank">Sass</a></strong>).
+                </li>
+                <li>Building clean, modern UIs with <strong class="Tag">JavaScript</strong>, <strong class="Tag"><a
+                        class="u-link-strong"
+                        href="https://reactjs.org/" target="_blank">React</a></strong>,
+                    <strong class="Tag"><a class="u-link-strong" href="https://vuejs.org/"
+                                           target="_blank">Vue</a></strong>, <strong
+                            class="Tag"><a class="u-link-strong" href="https://material-ui.com/" target="_blank">Material
+                        UI</a></strong> and <strong
+                            class="Tag"><a class="u-link-strong" href="https://getbootstrap.com/" target="_blank">Bootstrap</a></strong>.
+                </li>
+                <li>Making web apps and databases play nicely together, using <strong class="Tag"><a
+                        class="u-link-strong" href="https://firebase.google.com/" target="_blank">Firebase</a></strong>,
+                    <strong
+                            class="Tag"><a class="u-link-strong" href="https://aws.amazon.com/" target="_blank">AWS</a></strong>
+                    and <strong
+                            class="Tag"><a class="u-link-strong" href="https://www.mysql.com/" target="_blank">MySQL</a></strong>.
+                </li>
+                <li>Creating, updating, managing ecommerce integrations with <strong
+                        class="Tag"><a class="u-link-strong" href="https://moqui.org/" target="_blank">Moqui
+                    Framework</a></strong>,
+                    <strong
+                            class="Tag"><a class="u-link-strong" href="https://groovy-lang.org/"
+                                           target="_blank">Groovy</a></strong>,
+                    <strong
+                            class="Tag"><a class="u-link-strong" href="https://www.shopify.com/"
+                                           target="_blank">Shopify</a></strong>,
+                    <strong
+                            class="Tag"><a class="u-link-strong"
+                                           href="https://en.wikipedia.org/wiki/Electronic_data_interchange"
+                                           target="_blank">EDI</a></strong>.
+                </li>
+                <li>Automating processes and fixing data, using <strong class="Tag">bash scripting</strong>, <strong
+                        class="Tag">RegEx</strong> and <strong class="Tag">SQL</strong>.
+                </li>
+                <li>Version control with <strong class="Tag">Git</strong> (from the command line), together with <strong
+                        class="Tag"><a class="u-link-strong" href="https://bitbucket.org/" target="_blank">Bitbucket</a></strong>
+                    and
+                    <strong
+                            class="Tag"><a class="u-link-strong" href="https://github.com/"
+                                           target="_blank">Github</a></strong>.
+                </li>
+                <li>Following <strong class="Tag">Agile</strong> development methodology, using <strong
+                        class="Tag"><a class="u-link-strong"
+                                       href="https://www.atlassian.com/software/jira" target="_blank">Jira</a></strong>
+                    and
+                    <strong
+                            class="Tag"><a class="u-link-strong" href="https://trello.com/"
+                                           target="_blank">Trello</a></strong>.
+                </li>
+                <li><strong class="Tag">Communication</strong> and <strong class="Tag">building great
+                    relationships</strong>
+                    with team members, clients and managers.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="l-Section">
+        <h2 class="l-Section-title h3">Experience</h2>
+        <div class="l-Section-content">
+            <!--            <h3>Senior Developer</h3>-->
+            <!--            <a class="u-link" href="http://www.tailorsoft.co/" target="_blank">TailorSoft S.A.S, Medellin</a> (Colombia)<br>-->
+            <!--            January 2020 - present-->
+
+            <h3>Developer / Manager</h3>
+            <a class="u-link" href="https://www.tailorsoft.co/" target="_blank">TailorSoft S.A.S, Medellin</a>
+            (Colombia)<br> October 2018 - present
+            <p>TailorSoft is a medium size software development company based in Colombia and working primarily with
+                clients from the United States. Following are some of the projects I've worked on and related
+                achievements:</p>
+            <h4 class="title-link">inTakt - Construction scheduling web app (in progress)</h4>
+            <ul>
+                <li>Core developer on project using React Hooks, Material UI, Firebase.</li>
+                <li>Refactored project dialog components to use a single dialog context and dialog reusable templates.
+                </li>
+            </ul>
+
+            <h4 class="title-link"><a class="u-link" href="https://www.brandedonline.com/" target="_blank">Branded
+                Online</a> - End to end ecommerce solutions (website, marketing, fulfillment)</h4>
+            <ul>
+                <li>Integrate Branded Online <a class="u-link"
+                                                href="https://en.wikipedia.org/wiki/Enterprise_resource_planning"
+                                                target="_blank">ERP</a> (based on <a class="u-link"
+                                                                                     href="https://www.moqui.org"
+                                                                                     target="_blank">Moqui</a>) with
+                    other ecommerce platforms (eg. <a class="u-link" href="https://www.shopify.com/"
+                                                      target="_blank">Shopify</a>, <a class="u-link"
+                                                                                      href="https://www.magento.com/"
+                                                                                      target="_blank">Magento</a>,
+                    <a class="u-link"
+                       href="https://returnly.com/"
+                       target="_blank">Returnly</a>, <a class="u-link"
+                                                        href="https://www.returnmagic.com/"
+                                                        target="_blank">Return Magic</a>).
+                </li>
+                <li>Integrate ERP with fulfillment centres using <a class="u-link"
+                                                                    href="https://en.wikipedia.org/wiki/Electronic_data_interchange"
+                                                                    target="_blank">EDI</a>, CSV, SFTP.
+                </li>
+                <li>Develop core ERP features such as consuming / producing new file types.</li>
+                <li><a class="u-link"
+                       href="https://en.wikipedia.org/wiki/Site_Reliability_Engineering"
+                       target="_blank">SRE</a> support. Investigating and fixing time-sensitive bugs in production using
+                    SQL, regex, bash
+                    scripting to automate updating values in database or batch running services. Improving services and
+                    processes in codebase to
+                    prevent and alert to errors.
+                </li>
+                <li>Point of contact for Branded Online business/brand managers. Join daily stand-up meeting with onshore dev team and allocate tasks to TailorSoft colleagues. Code
+                    review pull requests containing business sensitive changes.
+                </li>
+            </ul>
+
+            <h4 class="title-link"><a class="u-link" href="https://www.rcherbals.com/" target="_blank">Ridgecrest
+                Herbals</a> - US based online nutritional supplement store</h4>
+            <ul>
+                <li>Rewrote very messy legacy HTML/CSS to improve design and make website responsive.
+                </li>
+                <li>Improved design and functionality of various pages, including store checkout process, using <a
+                        class="u-link"
+                        href="https://vuejs.org"
+                        target="_blank">Vue</a>
+                    and <a class="u-link"
+                           href="https://www.moqui.org"
+                           target="_blank">Moqui</a>.
+                </li>
+            </ul>
+
+            <h3>Analyst, Customer Data and Analytics</h3>
+            <a class="u-link" href="http://www.nab.com.au/" target="_blank">National Australia Bank, Melbourne</a><br>
+            May 2017 - May 2018
+            <ul>
+                <li>Analysed the bank's customer data to help the marketing team optimize their campaigns.
+                </li>
+                <li>Used SQL to compile a number of disparate data sources into a single source and used the R
+                    programming
+                    language to produce visualisations that were used to better target credit card marketing.
+                </li>
+            </ul>
+
+            <h3>Graduate, Finance and Strategy</h3>
+            <a class="u-link" href="http://www.nab.com.au/" target="_blank">National Australia Bank, Melbourne</a><br>
+            Feb 2016 - May 2017
+            <ul>
+                <li>Undertook roles in Group Treasury, Finance Management Assurance and Internal Audit.
+                </li>
+                <li>Automated reporting tools and processes using Microsoft Excel and VBA</li>
+                <li>Responsible for preparing communications for senior management and board meetings</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="l-Section">
+        <h2 class="l-Section-title h3">Education</h2>
+        <div class="l-Section-content">
+            <h3>Honours Degree of Bachelor of Economics (First Class)</h3>
+            <a class="u-link" href="https://economics.adelaide.edu.au/undergraduate/honours" target="_blank">University
+                of Adelaide</a> <br> 2015
+            <ul>
+                <li>Utilised a large longitudinal data set to look at the evidence for the effectiveness of three
+                    government policies to incentivise the purchase of private health insurance.
+                </li>
+            </ul>
+
+            <h3>Bachelor of Economics</h3>
+            <a class="u-link" href="https://economics.adelaide.edu.au/undergraduate/honours" target="_blank">University
+                of Adelaide</a> <br> 2014 - 2019
+            <ul>
+                <li>Distinction average.</li>
+                <li>Certificate of Excellence for Advanced Mathematical Economics III, 2014</li>
+                <li>SA Water Undergraduate Scholarship in Economics, 2009</li>
+                <li>Academic exchange at Universidad EAFIT (Medellin, Colombia) through 2011. All courses in Spanish for
+                    credit towards Bachelor of Economics
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="l-Section u-hidden@print">
+        <h2 class="l-Section-title h3">Preferred Tools</h2>
+        <div class="l-Section-content">
+            <ul>
+                <li>OS: Mac OS / Linux</li>
+                <li>IDE: Webstorm, IntelliJ, DataGrip (the JetBrains suite)</li>
+                <li>Shell: Zsh with Oh My Zsh</li>
+                <li>Text editor: Sublime Text (for complicated RegEx)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="l-Section u-hidden@print">
+        <h2 class="l-Section-title h3">Interests</h2>
+        <div class="l-Section-content">
+            <p>Reading biographies - Brazilian guitar music - Buddhism - Exercising (somewhat reluctantly)
+                - Attempting to play the piano - Candlelight - Financial markets and investing - Learning languages -
+                Sleeping well - Birds</p>
+        </div>
+    </section>
+</article>
+
+<div class="l-Wrapper u-keyline">
+    <div class="l-Footer">
+        <div class="l-Footer-col">
+            This CV was adapted from one made available by <a class="u-link" href="https://www.sonjastrieder.com/"
+                                                              target="_blank">Sonja Strieder</a> on <a class="u-link"
+                                                                                                       href="https://codepen.io/sonjastrieder/pen/XpYByr"
+                                                                                                       target="_blank">codepen</a>.
+        </div>
+    </div>
+</div>
+</body>
+</html>

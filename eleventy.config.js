@@ -63,6 +63,7 @@ module.exports = eleventyConfig => {
     // Include our static assets
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("js");
+    eleventyConfig.addPassthroughCopy("site/cv.html");
     eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("robots.txt");
 

@@ -7,6 +7,10 @@
         {
             "label": "About",
             "url": "/about/"
+        },
+        {
+            "label": "CV",
+            "url": "/cv.html"
         }
     ]
 }
