@@ -77,7 +77,7 @@ goods that retain their value, such as land and commodities, as quickly as possi
 
 ## Discussion
 
-I don't know.
+TBC
 
 [^1]: It's not clear to me, and Preston doesn't elaborate on, how exactly the inflationary depression follows. I'm familiar with 
 arguments that suggest a much more valuable USD is likely in the short to medium term, due to its role as the world's reserve 

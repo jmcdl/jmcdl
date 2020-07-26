@@ -24,18 +24,18 @@ module.exports = eleventyConfig => {
     eleventyConfig.addFilter("htmlDateDisplay", require("./filters/timestamp.js"));
 
     // Minify our HTML
-    // eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
-    //     if ( outputPath.endsWith(".html") )
-    //     {
-    //         let minified = htmlmin.minify(content, {
-    //             useShortDoctype: true,
-    //             removeComments: true,
-    //             collapseWhitespace: true
-    //         })
-    //         return minified
-    //     }
-    //     return content
-    // })
+    eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
+        if ( outputPath.endsWith(".html") )
+        {
+            let minified = htmlmin.minify(content, {
+                useShortDoctype: true,
+                removeComments: true,
+                collapseWhitespace: true
+            })
+            return minified
+        }
+        return content
+    })
 
     // Collections
     eleventyConfig.addCollection('blog', collection => {
@@ -64,6 +64,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("js");
     eleventyConfig.addPassthroughCopy("site/cv.html");
+    eleventyConfig.addPassthroughCopy("site/cv.pdf");
     eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("robots.txt");
 
